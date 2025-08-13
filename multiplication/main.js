@@ -69,4 +69,17 @@
 // }
 // odd()
 
+//factorials 3 and 5
+function factor(n) {
+  let result = 1
+  for (let i = 2; i <= n; i++) {
+    result *= i;
+  }
+    return result;
+}
 
+  let factors = 5;
+  console.log(factor(factors));
+
+  let facts = 3;
+  console.log(factor(facts));
