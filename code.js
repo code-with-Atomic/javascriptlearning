@@ -91,7 +91,7 @@ const isFullAge = ageSarah >= 18;
 
 console.log(now - 1991 > now - 2000);
 
-*/
+
 
 //operator prudence
 
@@ -100,4 +100,34 @@ const ageJonas = now - 1991;
 const ageSarah = now - 2000;
 
 console.log(now - 1991 > now - 2000);
+*/
 
+// // type conversion
+
+// const inputYear = "1991";
+
+// console.log(Number(inputYear), inputYear);
+// console.log(Number(inputYear) + 18);
+
+// console.log(Number('jonas'));
+// console.log(typeof NaN);
+
+// console.log(String(23), 23);
+
+// //type coercion
+// console.log('i am ' + 23 + ' years old');
+// console.log('23' - '10' - '3') // the string converted to numbers because the minus triggered thr opposite direction
+// console.log('23 ' * '3'); //conversion from string to number , you can remove te * nd use /
+// console.log('23' > '18');
+
+
+// let n = '1' + 1; //11 because its a + sign whic add the number to the string '1' + 1=11
+// n = n - 1;
+// console.log(n);
+
+// let m = 1+2+2 + '2';
+// console.log(m)
+
+//
+
+prompt("who are you?");
